@@ -226,6 +226,15 @@
           &kp F20 &kp F20 &kp F20               &kp TAB &kp ENTER &kp DELETE
           >;
         };
+        layer2 {
+          bindings = <
+          &kp K_CUT &kp K_COPY &kp K_PASTE &kp F20 &kp F20      &kp INSERT &kp H &kp J &kp K &kp L 
+          &kp FIND &kp F20 &kp F20 &kp F20 &kp HOME             &kp PAGE_UP &kp F20 &kp F20 &kp F20 &kp PRINTSCREEN 
+          &kp LEFT_GUI &kp LEFT_SHIFT &kp LEFT_ALT &kp LEFT_CONTROL &kp END     &kp PAGE_DOWN &kp LEFT &kp DOWN &kp UP &kp RIGHT 
+          &kp F20 &kp F20 &kp F20         &kp F20 &kp F20 &kp F20
+          >;
+        };
+
   }; 
 };  
 
