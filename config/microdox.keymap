@@ -43,9 +43,9 @@
         layer2 {
           bindings = <
           &kp K_CUT &kp K_COPY &kp K_PASTE &kp F20 &kp F20      &kp INSERT &kp H &kp J &kp K &kp L 
-          &kp LEFT_GUI &kp LEFT_SHIFT &kp LEFT_ALT &kp LEFT_CONTROL &kp HOME             &kp PAGE_UP &kp F20 &kp F20 &kp F20 &kp PRINTSCREEN 
-          &kp K_FIND &kp F20 &kp F20 &kp F20 &kp END     &kp PAGE_DOWN &kp LEFT &kp DOWN &kp UP &kp RIGHT 
-          &kp F20 &kp F20 &kp F20         &kp F20 &kp F20 &kp F20
+&kp LEFT_GUI &mmv MOVE_HOR(-2500) &mmv MOVE_VERT(2500) &mmv MOVE_HOR(2500) &kp HOME             &kp PAGE_UP &mkp LCLK &mkp RCLK &mkp MCLK &kp PRINTSCREEN 
+          &kp F20 &kp LEFT_SHIFT &kp LEFT_ALT &kp LEFT_CONTROL &kp END     &kp PAGE_DOWN &kp LEFT &kp DOWN &kp UP &kp RIGHT 
+          &kp F20 &kp F20 &mmv MOVE_VERT(-2500)          &kp F20 &kp F20 &kp F20
           >;
         };
         layer3 {
