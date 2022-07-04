@@ -217,36 +217,15 @@
           &kp Z &kp X &kp C &kp V &kp B         &kp N &kp M &kp COMMA &kp DOT &kp SLASH 
           &kp ESCAPE &kp SPACE &lt 1 BACKSPACE          &lt 2 TAB &lt 4 ENTER &lt 3 DELETE
           >;
-      };layer1 {
+      };
+        layer1 {
           bindings = <
           &kp EXCL &kp AT &kp HASH &kp DLLR &kp PRCNT           &kp CARET &kp AMPS &kp STAR &kp MINUS &kp EQUAL 
           &kp LEFT_GUI &kp LEFT_SHIFT &kp LEFT_ALT &kp LEFT_CONTROL &kp F20             &kp GRAVE &kp SINGLE_QUOTE &kp PIPE &kp DQT &kp COLON 
           &kp F20 &kp F20 &kp F20 &kp F20 &kp F20               &kp LEFT_BRACKET &kp RIGHT_BRACKET &kp LPAR &kp RPAR &kp BACKSLASH 
           &kp F20 &kp F20 &kp F20               &kp TAB &kp ENTER &kp DELETE
           >;
-        };layer2 {
-          bindings = <
-          &kp K_CUT &kp K_COPY &kp K_PASTE &kp F20 &kp F20      &kp INSERT &kp H &kp J &kp K &kp L 
-          &kp FIND &kp F20 &kp F20 &kp F20 &kp HOME             &kp PAGE_UP &kp F20 &kp F20 &kp F20 &kp PRINTSCREEN 
-          &kp LEFT_GUI &kp LEFT_SHIFT &kp LEFT_ALT &kp LEFT_CONTROL &kp END     &kp PAGE_DOWN &kp LEFT &kp DOWN &kp UP &kp RIGHT 
-          &kp F20 &kp F20 &kp F20         &kp F20 &kp F20 &kp F20
-          >;
-        };layer3 {
-          bindings = <
-          &kp F12 &kp F7 &kp F8 &kp F9 &kp F20          &kp F20 &kp F20 &kp F20 &kp F20 &kp F20 
-          &kp F11 &kp F4 &kp F5 &kp F6 &kp F20          &kp F20 &kp RIGHT_CONTROL &kp RIGHT_ALT &kp RIGHT_SHIFT &kp RIGHT_GUI 
-          &kp F10 &kp F1 &kp F2 &kp F3 &kp F20          &kp F20 &kp F20 &kp F20 &kp F20 &kp F20 
-          &kp F20 &kp F20 &kp F20               &kp F20 &kp F20 &kp F20
-          >;
-        };layer4 {
-          bindings = <
-          &kp ENTER &kp N7 &kp N8 &kp N9 &kp STAR       &kp F20 &kp F20 &kp F20 &kp F20 &kp F20 
-          &kp STAR &kp N4 &kp N5 &kp N6 &kp PLUS        &kp F20 &kp F20 &kp F20 &kp F20 &kp F20 
-          &kp SLASH &kp N1 &kp N2 &kp N3 &kp MINUS      &kp F20 &kp F20 &kp F20 &kp F20 &kp F20 
-          &kp N0 &kp DOT &kp EQUAL              &kp F20 &kp F20 &kp F20
-          >;
         };
-
   }; 
 };  
 
