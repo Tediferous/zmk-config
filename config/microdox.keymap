@@ -17,8 +17,8 @@
 #define FUN         5
 #define MEDIA       6
 
-&lt {
-  tapping-term-ms = <100>;
+&lt { // layer-tap
+  tapping-term-ms = <200>;
   quick-tap-ms = <200>;
   flavor = "hold-preferred";
 };
@@ -230,7 +230,7 @@
           &kp KP_ENTER &kp KP_N7 &kp KP_N8 &kp KP_N9 &kp KP_ASTERISK &kp F20 &kp F20 &kp F20 &kp F20 &kp F20 &kp KP_ASTERISK &kp KP_N4 &kp KP_N5 &kp KP_N6 &kp KP_PLUS &kp F20 &kp F20 &kp F20 &kp F20 &kp F20 &kp KP_SLASH &kp KP_N1 &kp KP_N2 &kp KP_N3 &kp KP_MINUS &kp F20 &kp F20 &kp F20 &kp F20 &kp F20 &kp KP_N0 &kp KP_DOT &kp KP_EQUAL &kp F20 &kp F20 &kp F20
           >;
         };
-    };
+  }; 
 };  
 
 
