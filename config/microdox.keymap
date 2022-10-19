@@ -36,7 +36,7 @@
 
       default_layer {
           bindings = <
-          &kp Q &kp W &kp E &kp R &kp T         &kp Y &kp U &kp I &kp O &kp P 
+          &kp Q &kp W &kp E &kp R &kp T         &kp Y &kp U &kp I &kp O &lt 5 P 
           &mt LEFT_GUI A &mt LEFT_SHIFT S &mt LEFT_ALT D &mt LEFT_CONTROL F &kp G       &kp H &mt RCTL J &mt RALT K &mt RSHFT L &mt RGUI SEMI 
           &kp Z &kp X &kp C &kp V &kp B         &kp N &kp M &kp COMMA &kp DOT &kp SLASH 
           &kp ESCAPE &kp BACKSPACE &lt 1 SPACE          &lt 2 TAB &lt 4 ENTER &lt 3 DELETE
@@ -72,6 +72,14 @@
           &kp STAR &kp N4 &kp N5 &kp N6 &kp PLUS        &kp F20 &kp RIGHT_CONTROL &kp RIGHT_ALT &kp RIGHT_SHIFT &kp RIGHT_GUI
           &kp SLASH &kp N1 &kp N2 &kp N3 &kp MINUS      &kp F20 &kp F20 &kp F20 &kp DOT &kp F20 
           &kp N0 &kp BACKSPACE &kp SPACE              &kp F20 &kp F20 &kp F20
+          >;
+        };
+        layer5 {
+          bindings = <
+          &kp F20 &kp F20 &kp F20 &kp F20 &bt BT_CLR        &kp F20 &kp F20 &kp F20 &kp F20 &kp F20  
+          &kp F20 &bt BT_SEL 4 &bt BT_SEL 5 &kp F20 &bt BT_PRV         &kp F20 &kp F20 &kp F20 &kp F20 &kp F20  
+          &kp F20 &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 &bt BT_NXT         &kp F20 &kp F20 &kp F20 &kp F20 &kp F20  
+                          &bt BT_SEL 0 &kp F20 &kp F20        &kp F20 &kp F20 &kp F20
           >;
         };
   }; 
