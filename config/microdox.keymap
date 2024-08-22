@@ -37,7 +37,7 @@
       default_layer {
           bindings = <
           &kp L &kp W &kp A &kp J &kp S         &kp Y &kp U &kp P &kp L &kp P
-          &mt LEFT_GUI Q &mt LEFT_SHIFT SEMI &mt LEFT_ALT F &mt LEFT_CONTROL F &kp G       &kp H &mt RCTL J &mt RALT K &mt RSHFT L &mt RGUI SEMI 
+          &mt LEFT_GUI Q &mt LEFT_SHIFT SEMI &mt LEFT_ALT E &mt LEFT_CONTROL F &kp G       &kp H &mt RCTL J &mt RALT K &mt RSHFT L &mt RGUI SEMI 
           &kp Z &kp X &kp C &kp V &kp B         &kp N &kp M &kp COMMA &kp DOT &kp SLASH 
           &kp ESCAPE &kp BACKSPACE &lt 1 SPACE          &lt 2 TAB &lt 4 ENTER &lt 3 DELETE
           >;
