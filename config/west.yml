@@ -8,9 +8,13 @@ manifest:
     - name: m165437
       url-base: https://github.com/M165437
   projects:
+    # - name: zmk
+    #   remote: mouse-pr-remote
+    #   revision: mouse-ftc
+    #   import: app/west.yml
     - name: zmk
-      remote: mouse-pr-remote
-      revision: mouse-ftc
+      remote: zmkfirmware
+      revision: main
       import: app/west.yml
     - name: nice-view-gem
       remote: m165437
