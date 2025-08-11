@@ -10,6 +10,7 @@
 #include <dt-bindings/zmk/outputs.h>
 #include <dt-bindings/zmk/mouse.h>
 #include <dt-bindings/zmk/ext_power.h>
+#include <dt-bindings/zmk/pointing.h>
 
 &lt { // layer-tap
   tapping-term-ms = <200>;
@@ -25,9 +26,9 @@
         time-to-max-speed-ms = <500>;
         acceleration-exponent=<1>;
 };
-&mwh {
-        time-to-max-speed-ms = <500>;
-        acceleration-exponent=<1>;
+&msc {
+    time-to-max-speed-ms = <500>;
+    acceleration-exponent = <0>;
 };
 / {
 
@@ -74,10 +75,10 @@
           bindings = <
 //      ╭───────────────────────────────────────────────────────────╮   ╭───────────────────────────────────────────────────────────╮
 //      │     _     │     _     │     _     │     _     │     _     │   │     _     │     _     │     _     │     _     │     _     │
-          &kp K_CUT  &kp K_COPY &mmv MOVE_VERT(-3200) &kp K_PASTE &kp F20 &kp INSERT   &kp H       &kp J       &kp K       &kp L 
+          &kp K_CUT  &kp K_COPY &mmv MOVE_Y(-3200) &kp K_PASTE &kp F20 &kp INSERT &msc SCRL_LEFT &msc SCRL_DOWN &msc SCRL_UP &msc SCRL_RIGHT
 //      ├───────────┼───────────┼───────────┼───────────┼───────────┤   ├───────────┼───────────┼───────────┼───────────┼───────────┤
 //      │     _     │     _     │     _     │     _     │     _     │   │     _     │     _     │     _     │     _     │     _     │
-&kp LGUI &mmv MOVE_HOR(-3200) &mmv MOVE_VERT(3200) &mmv MOVE_HOR(3200) &kp HOME &kp PG_UP &mkp LCLK &mkp RCLK  &mkp MCLK &kp PSCRN
+&kp LGUI &mmv MOVE_X(-3200) &mmv MOVE_Y(3200) &mmv MOVE_X(3200) &kp HOME &kp PG_UP    &mkp LCLK   &mkp RCLK   &mkp MCLK   &kp PSCRN
 //      ├───────────┼───────────┼───────────┼───────────┼───────────┤   ├───────────┼───────────┼───────────┼───────────┼───────────┤
 //      │     _     │     _     │     _     │     _     │     _     │   │     _     │     _     │     _     │     _     │     _     │
 //           ___         ___         ___         ___         ___             ___         ___         ___         ___         ___     
@@ -85,7 +86,7 @@
 //      ╰───────────┼───────────┼───────────┼───────────┼───────────╯   ╰───────────┼───────────┼───────────┼───────────┼───────────╯
 //                                   ___         ___         ___            ___         ___         ___
 //                              │                                   │   │                                   │
-                                &kp F20 &kp F20 &mmv MOVE_VERT(-3200)      &kp F20    &kp F20     &kp F20
+                                &kp F20 &kp F20 &mmv MOVE_Y(-3200)      &kp F20    &kp F20     &kp F20
 //                              ╰───────────────────────────────────╯   ╰───────────────────────────────────╯
           >;
         };
