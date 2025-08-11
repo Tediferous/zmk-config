@@ -3,17 +3,17 @@ manifest:
   remotes:
     - name: zmkfirmware
       url-base: https://github.com/zmkfirmware
-    - name: mouse-pr-remote
-      url-base: https://github.com/ftc
-    # - name: m165437
-    #   url-base: https://github.com/M165437
+    # - name: mouse-pr-remote
+    #   url-base: https://github.com/ftc
+    - name: m165437
+      url-base: https://github.com/M165437
   projects:
     - name: zmk
-      remote: mouse-pr-remote
-      revision: mouse-ftc
+      remote: zmkfirmware
+      revision: v0.3
       import: app/west.yml
-    # - name: nice-view-gem
-    #   remote: m165437
-    #   revision: main
+    - name: nice-view-gem # repo name
+      remote: m165437 # look at the remote's array define here
+      revision: main # branch/tag
   self:
     path: config
